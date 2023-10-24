@@ -32,7 +32,7 @@ app.route("/time").post((req, res) => {
         try {
             const result = await axios.post(
     
-                "https://api.rd.services/platform/conversions?api_key=UKJFVvHUGAfbVadFaAtTmRaTTnfdrnnjiAZh",
+                "https://api.rd.services/platform/conversions?api_key=xxxxxxxxxxxxxxxxxxxxxxxxxx",
                 
                 {
                     "event_type": "CONVERSION",
